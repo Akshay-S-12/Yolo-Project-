@@ -2,7 +2,7 @@
 
 This project demonstrates **end-to-end custom object detection using YOLOv8**, including dataset preparation, train–validation split, model training, and prediction on images and videos. The workflow is implemented using **Python and Ultralytics YOLOv8** in a Jupyter/Google Colab environment.
 The project starts by installing required libraries and preparing the dataset in YOLO format. A custom Python function is used to split the dataset into training and validation sets. The YOLOv8 Small model (`yolov8s.pt`) is then fine-tuned on a custom dataset (football player detection) using a YAML configuration file. Finally, predictions are performed on both images and videos using the trained model.
-Technologies used include Python, Ultralytics YOLOv8, OpenCV (backend), tqdm for progress visualization, and Google Drive for dataset and result storage.
+Technologies used include Python, Ultralytics YOLOv8, OpenCV  (backend), tqdm for progress visualization, and Google Drive for dataset and result storage.
 
 Project Structure:
 Yolov8/
